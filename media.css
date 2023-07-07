@@ -1,0 +1,471 @@
+@media only screen and (min-width:200px) and (max-width: 991px) {
+    
+    
+    header{
+        height: 60px;
+        
+    }
+    .logo{
+        height: 50px;
+        width: 180px;
+        position: absolute;
+        left: 4%;
+        top: 5px;
+        
+    }
+    .logo h1{
+        font-size: 40px;
+        
+    }
+    .navlinks{
+        height: 75vh;
+        width: 100%;
+        left: -100%;
+        top: 60px;
+        background-color: rgba(255, 255, 255, 0.941);
+        transition: all 500ms;
+    }
+    .navlinks ul li{
+        display: block;
+
+    }
+    .navlinks ul li a{
+        position: relative;
+        font-size: 22px;
+        font-weight: 500;
+        top: 15px;
+        line-height: 2;
+        margin-left: 0px;
+        color: var(--dark-color);
+    }
+    .navlinks ul li a:hover::after{
+        display: none;
+    }
+
+    .navlinks ul li:hover .drop-gdown{
+        display: block;
+        position: relative;
+        top: 15px;
+        left: 0px;
+    }
+    .navlinks .drop-gdown ul li a{
+        line-height: 1.5;
+        
+    }
+    .navlinks ul li .n-btn{
+        left: 0%;
+        width: 91.5%;
+        padding: 10px 0px;
+        /* padding: 10px 90px; */
+        position: relative;
+        top: 5vh;
+    }
+    .burger {
+        display: block;
+        
+    }
+    .navlinks-active{
+        left: 0;
+    }
+    
+
+
+    .home{
+        height: 300px;
+        /* background-color: aquamarine; */
+    }
+    .swiper-slide{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+      }
+    .home .swiper .swiper-wrapper .swiper-slide .content{
+        height: 200px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 16%;
+        /* background-color: aqua; */
+        position: absolute;
+        text-align: center;
+    
+      }
+    
+      .home .swiper .swiper-wrapper .swiper-slide .content p{
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--light-color);
+        
+      }
+      .home .swiper .swiper-wrapper .swiper-slide .content h1{
+        font-size: 30px;
+        width: 95%;
+        margin-left: 2.5%;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-top: -5px;
+        color: var(--light-color);
+        /* background-color: aqua; */
+        
+      }
+      .home .swiper .swiper-wrapper .swiper-slide .content a{
+        position: relative;
+        top: 30px;
+        font-weight: 600;
+      }
+      .home .swiper .swiper-wrapper .swiper-slide .content .h-button{
+        padding: 7px 12px;
+        font-size: 16px;
+        
+      }
+      .home .swiper .swiper-wrapper .swiper-slide .content .c-button{
+        padding: 7px 12px;
+        font-size: 16px;
+        margin-top: 25px;
+      }
+      .home .swiper .swiper-button-prev{
+        padding: 0;
+      }
+      .home .swiper .swiper-button-next{
+        padding: 0;
+      }
+
+    
+      /* ABOUT */
+      .about{
+        width: 95%;
+        margin-left: 2.5%;
+      }
+      .about .abt-pic  img{
+        height: 450px;
+        width: 100%;
+      }
+      
+      .about .abt .abt-tit{
+        font-size: 20px;
+        padding-top: 20px;
+      }
+      .about .abt h1{
+        font-size: 32px;
+        
+        font-weight: 700;
+      }
+      .about .abt h4{
+        font-size: 21px;
+      }
+      .about .abt .abt-p{
+        width: 100%;
+      }
+      .about .abt .abt-card{
+        display: block;
+        
+      }
+      .about .abt .star{
+        width: 100%;
+      }
+      .about .abt .award{
+        width: 100%;
+        margin-left: 0;
+      }
+
+      /* SERVICES */
+      .service{
+        width: 95%;
+        margin-left: 2.5%;
+      }
+      .service .serv h1{
+        font-size: 32px;
+      }
+      .service .container .card-cont .ser-card{
+        height: 50px;
+        width: 50px;
+      }
+      .service .container .card-cont .card h4{
+        font-size: 25px;
+        line-height: 0;
+      }
+      .service .container .card-cont .card{
+        width: auto;
+        padding: 0px 5px;
+        left: 0%;
+        /* background-color: aqua; */
+      }
+
+      /* PRICING */
+      .pricing .price{
+        width: 95%;
+        margin-left: 2.5%;
+      }
+      .pricing .pri h1{
+        font-size: 32px;
+      }
+      .pricing .pri-cd{
+        margin-top: 0%;
+      }
+      .pricing .pri-cd .card{
+        left: 0;
+        width: auto;
+        margin-top: 10%;
+      }
+      .pricing .pri-cd .card1{
+        left: 0;
+        width: auto;
+        margin-top: 10%;
+      }
+
+      .pricing .pr-off .offer{
+        
+        background-position: center;
+        
+        height: 400px;
+        width: 100%;
+        
+      }
+      .pricing .pr-off .offer .off-text{
+        /* background-color: aqua; */
+        text-align: center;
+        height: 330px;
+        width: 95%;
+    
+        position: relative;
+        left: 2.5%;
+        top: 5px;
+      }
+      .pricing .pr-off .offer .off-text .ot-1{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        line-height: 0.5;
+      }
+      .pricing .pr-off .offer .off-text h1{
+        font-size: 32px;
+        font-weight: 750;
+      
+      }
+      .pricing .pr-off .offer .off-text .ot-2{
+        font-size: 16.3px;
+        width: 100%;
+        
+        margin-top: 20px;
+      }
+      .pricing .pr-off .offer .off-text .ot-3{
+        padding: 7px 12px;
+        font-size: 16px;
+        top: 3%;
+      }  
+      .pricing .pr-off .offer .off-text .ot-4{
+        padding: 7px 12px;
+        font-size: 16px;
+        top: 3%;
+      }
+
+      /* TEAM */
+      .team .tm1{
+        padding: 0px 0px;
+      }
+      .team .tm h1{
+        font-size: 32px;
+      }
+      .team .tm1 .card-tm{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 40px;
+      }
+
+      .team .tm1 .card-tm .tm-icon1{
+        height: 210px;
+        width: 50px;
+        background-color: var(--light-color);
+        position: absolute;
+        top: 194.44cm;
+        left: 82.8575%;
+      }
+      .team .tm1 .card-tm .tm-icon1 i{
+        display: block;
+        border: 1px solid #f14d5d;
+        border-radius: 2px;
+        font-size: 16px;
+        text-align: center;
+        padding: 9px;
+        margin-top: 10px;
+        color: var(--danger-color);
+        cursor: pointer;
+      }
+      .team .tm1 .card-tm .tm-icon1 i:hover{
+        color: var(--dark-color);
+        background-color: var(--danger-color);
+      }
+
+      .team .tm1 .card-tm .tm-icon2{
+        height: 210px;
+        width: 50px;
+        background-color: var(--light-color);
+        position: absolute;
+        top: 208.60cm;
+        left: 82.8575%;
+      }
+      .team .tm1 .card-tm .tm-icon2 i{
+        display: block;
+        border: 1px solid #f14d5d;
+        border-radius: 2px;
+        font-size: 16px;
+        text-align: center;
+        padding: 9px;
+        margin-top: 10px;
+        color: var(--danger-color);
+        cursor: pointer;
+      }
+      .team .tm1 .card-tm .tm-icon2 i:hover{
+        color: var(--dark-color);
+        background-color: var(--danger-color);
+      }
+
+      .team .tm1 .card-tm .tm-icon3{
+        height: 210px;
+        width: 50px;
+        background-color: var(--light-color);
+        position: absolute;
+        top: 222.81cm;
+        left: 82.8575%;
+      }
+      .team .tm1 .card-tm .tm-icon3 i{
+        display: block;
+        border: 1px solid #f14d5d;
+        border-radius: 2px;
+        font-size: 16px;
+        text-align: center;
+        padding: 9px;
+        margin-top: 10px;
+        color: var(--danger-color);
+        cursor: pointer;
+      }
+      .team .tm1 .card-tm .tm-icon3 i:hover{
+        color: var(--dark-color);
+        background-color: var(--danger-color);
+      }
+
+      /* TESTIMONIAL */
+
+      .test .tst h1{
+        font-size: 32px;
+      }
+
+      .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car{
+        margin-left: 8.2%;
+      }
+      .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car img{
+        top: 15px;
+        margin-left: 25%;
+      }
+      .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car .ts-p1{
+        margin-top: 100px;
+      }
+
+
+
+      /* BLOG */
+
+      .blog .blg h1{
+        font-size: 32px;
+      }
+      
+      .blog .blg1{
+        margin-top: -50px;
+      }
+      .blog .blg1 .card-blg{
+        margin-top: 40px;
+      }
+      .blog .blg1 .card-blg .blg-tit1 p{
+        font-size: 15px;
+      }
+      .blog .blg1 .card-blg .blg-tit1 h4{
+        width: 100%;
+        line-height: 1.3;
+        font-size: 24px;
+      }
+      .blog .blg1 .card-blg .blg-dt{
+        
+        top: 254.2cm;
+        left: 1%;
+      }
+      .blog .blg1 .card-blg .blg-dt1{
+        top: 267.7cm;
+        left: 1%;
+      }
+
+      /* FOOTER */
+
+      .foot .ft .ft-1{
+        padding: 20% 0% 2% 5%;
+      }
+      .foot .ft .ft-2{
+        padding: 5% 0% 2% 5%;
+      }
+      .foot .ft .ft-3{
+        padding: 5% 0% 2% 5%;
+      }
+      .foot .ft .ft-4{
+        padding: 5% 0% 8% 5%;
+      }
+
+      
+
+      .foot .ftr .ftr-1  input{
+        width: 95%;
+        height: 55px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 2.5%;
+        
+       
+    }
+    .foot .ftr .ftr-1  .ftr-btn{
+      margin-left: 63.34%;
+      height: 55px;
+    }
+
+    .foot .copy-ft{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .foot .copy-ft .cf-1 p{
+      padding-top: 0px;
+    }
+    .foot .copy-ft .cf-2{
+      padding-top: 0px;
+    } 
+
+    
+
+}  
+   /* { 
+    .burger {
+        display: block;
+    }
+
+    .navlinks {
+        background: hsl(180, 84%, 75%);
+        position: absolute;
+        left: -100%;
+        aline top side-------
+        top: 54px;
+        width: 40%;
+        aline  bottom side---
+        height: calc(100% - 70px);
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        transition: all 500ms;
+    }
+
+    .navlink {
+        text-align: center;
+    }
+
+    .nav-active {
+        left: 0;
+    } 
+
+}
