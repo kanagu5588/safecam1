@@ -350,9 +350,12 @@
       .test .tst h1{
         font-size: 32px;
       }
-
+      .test .t-car .swiper .swiper-wrapper .swiper-slide{
+       
+        margin-left: 2%;
+      }
       .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car{
-        margin-left: 8.2%;
+        /* margin-left: 8.2%; */
       }
       .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car img{
         top: 15px;
