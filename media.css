@@ -352,17 +352,17 @@
       }
       .test .t-car .swiper .swiper-wrapper .swiper-slide{
        
-        margin-left: 2%;
+        margin-left: 0%;
       }
       .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car{
-        /* margin-left: 8.2%; */
+        position: relative;
       }
       .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car img{
-        top: 15px;
-        margin-left: 25%;
+        top: -50px;
+        margin-left: 30%;
       }
       .test .t-car .swiper .swiper-wrapper .swiper-slide .sw-car .ts-p1{
-        margin-top: 100px;
+        margin-top: 50px;
       }
 
 
